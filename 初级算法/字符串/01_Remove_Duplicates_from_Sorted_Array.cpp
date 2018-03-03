@@ -20,7 +20,7 @@ class Solution {
 public:
     int removeDuplicates(vector<int> &nums) {
 
-        // 判断 vector 为空
+        // 判断 nums 为空
         if (nums.empty()) {
             return 0;
         }
@@ -46,17 +46,3 @@ public:
         return nums.size();
     }
 };
-
-int main() {
-
-    int array[] = {
-
-    };
-
-    vector<int> nums(array, array+sizeof(array)/sizeof(int));
-
-    Solution solution;
-    cout << solution.removeDuplicates(nums);
-
-    return 0;
-}
