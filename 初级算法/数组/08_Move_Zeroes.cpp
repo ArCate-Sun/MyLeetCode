@@ -40,21 +40,3 @@ public:
 
     }
 };
-
-int main() {
-
-    int array[] = {
-            0, 1, 0, 3, 12
-    };
-
-    vector<int> nums(array, array + sizeof(array) / sizeof(int));
-
-    Solution solution;
-    solution.moveZeroes(nums);
-
-    for (int i = 0; i < nums.size(); i++) {
-        cout << nums[i] << " ";
-    }
-
-    return 0;
-}
