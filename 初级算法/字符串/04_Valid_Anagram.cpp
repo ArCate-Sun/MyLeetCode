@@ -1,18 +1,18 @@
 //
 // Valid Anagram
 //
-// 要求:
-// 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的一个字母异位词。
+// Required:
+// Given two strings s and t, write a function to determine if t is an anagram of s.
 //
-// 示例:
-// s = "anagram"，t = "nagaram"，返回 true
-// s = "rat"，t = "car"，返回 false
+// Example:
+// s = "anagram", t = "nagaram", return true.
+// s = "rat", t = "car", return false.
 //
-// 注意:
-// 假定字符串只包含小写字母。
+// Note:
+// You may assume the string contains only lowercase alphabets.
 //
-// 提升难度:
-// 输入的字符串包含 unicode 字符怎么办？你能能否调整你的解法来适应这种情况？
+// Follow up:
+// What if the inputs contain unicode characters? How would you adapt your solution to such case?
 //
 
 #include <iostream>

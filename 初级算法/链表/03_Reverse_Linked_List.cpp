@@ -1,11 +1,12 @@
 //
 // Reverse Linked List
 //
-// 要求:
-// 反转一个单链表。
+// Required:
+// Reverse a singly linked list.
 //
-// 进阶:
-// 链表可以迭代或递归地反转。你能否两个都实现一遍？
+// Hint:
+// A linked list can be reversed either iteratively or recursively.
+// Could you implement both?
 //
 
 

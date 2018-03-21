@@ -1,28 +1,28 @@
 //
 // Count and Say
 //
-// 要求:
-// 数数并说序列是一个整数序列，第二项起每一项的值为对前一项的计数，其前五项如下：
-// 1.     1
-// 2.     11
-// 3.     21
-// 4.     1211
-// 5.     111221
-// 1 被读作 "一个一" 即 11。
-// 11 被读作  "两个一" 即 21。
-// 21 被读作  "一个二 和 一个一" 即 1211。
-// 给一个正整数 n ，输出数数并说序列的第 n 项。
+// Required:
+// The count-and-say sequence is the sequence of integers with the first five terms as following:
+//  1.     1
+//  2.     11
+//  3.     21
+//  4.     1211
+//  5.     111221
+// 1 is read off as "one 1" or 11.
+// 11 is read off as "two 1s" or 21.
+// 21 is read off as "one 2, then one 1" or 1211.
+// Given an integer n, generate the nth term of the count-and-say sequence.
 //
-// 注意:
-// 该整数序列的每项都输出为字符串。
+// Note:
+// Each term of the sequence of integers will be represented as a string.
 //
-// 示例 1:
-// 输入: 1
-// 输出: "1"
+// Example 1:
+// Input: 1
+// Output: "1"
 //
-// 示例 2:
-// 输入: 4
-// 输出: "1211"
+// Example 2:
+// Input: 4
+// Output: "1211"
 //
 
 #include <iostream>

@@ -1,13 +1,12 @@
 //
 // Valid Sudoku
 //
-// 要求:
-// 判断一个数独是否有效，根据：Sudoku Puzzles - The Rules。
-// 数独部分填了数字，空的部分用 '.' 表示。
-// 一个部分填充是有效的数独。
+// Required:
+// Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
+// The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
 //
-// 说明:
-// 一个有效的数独（填了一部分的）不一定是可解的，只要已经填的数字是有效的即可。
+// Note:
+// A valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.
 //
 
 #include <iostream>

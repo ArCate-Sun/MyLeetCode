@@ -1,36 +1,37 @@
 //
 // Rotate Image
 //
-// 要求:
-// 给定一个 n × n 的二维矩阵表示一个图像。
-// 将图像旋转 90 度（顺时针）。
+// Required:
+// You are given an n x n 2D matrix representing an image.
+// Rotate the image by 90 degrees (clockwise).
 //
-// 注意：
-// 你必须在原矩阵中旋转图像，请不要使用另一个矩阵来旋转图像。
+// Note：
+// You have to rotate the image in-place, which means you have to modify the input 2D matrix directly.
+// DO NOT allocate another 2D matrix and do the rotation.
 //
-// 示例 1:
-// 给出的输入矩阵 =
+// Example 1:
+// Given input matrix =
 // [
 //  [1,2,3],
 //  [4,5,6],
 //  [7,8,9]
 // ],
-// 旋转输入矩阵，使其变为 :
+// rotate the input matrix in-place such that it becomes:
 // [
 //  [7,4,1],
 //  [8,5,2],
 //  [9,6,3]
 // ]
 //
-// 示例 2:
-// 给出的输入矩阵 =
+// Example 2:
+// Given input matrix =
 // [
 //  [ 5, 1, 9,11],
 //  [ 2, 4, 8,10],
 //  [13, 3, 6, 7],
 //  [15,14,12,16]
 // ],
-// 旋转输入矩阵，使其变为 :
+// rotate the input matrix in-place such that it becomes:
 // [
 //  [15,13, 2, 5],
 //  [14, 3, 4, 1],

@@ -1,16 +1,16 @@
 //
 // Remove Nth Node From End of List
 //
-// 要求:
-// 给定一个链表，删除链表的倒数第 n 个节点并返回头结点。
+// Required:
+// Given a linked list, remove the nth node from the end of list and return its head.
 //
-// 例如:
-// 给定一个链表: 1->2->3->4->5, 并且 n = 2.
-// 当删除了倒数第二个节点后链表变成了 1->2->3->5.
+// Example:
+// Given linked list: 1->2->3->4->5, and n = 2.
+// After removing the second node from the end, the linked list becomes 1->2->3->5.
 //
-// 说明:
-// 给的 n 始终是有效的。
-// 尝试一次遍历实现。
+// Note:
+// Given n will always be valid.
+// Try to do this in one pass.
 //
 
 #include <iostream>

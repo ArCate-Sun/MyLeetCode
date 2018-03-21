@@ -1,16 +1,17 @@
 //
 // Valid Palindrome
 //
-// 要求:
-// 给定一个字符串，确定它是否是回文，只考虑字母数字字符和忽略大小写。
+// Required:
+// Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 //
-// 例如:
-// "A man, a plan, a canal: Panama" 是回文字符串。
-// "race a car" 不是回文字符串。
+// Example:
+// "A man, a plan, a canal: Panama" is a palindrome.
+// "race a car" is not a palindrome.
 //
-// 注意:
-// 你有考虑过这个字符串可能是空的吗？ 在面试中这是一个很好的问题。
-// 针对此题目，我们将空字符串定义为有效的回文字符串。
+// Note:
+// Have you consider that the string might be empty?
+// This is a good question to ask during an interview.
+// For the purpose of this problem, we define empty string as valid palindrome.
 //
 
 #include <iostream>
@@ -40,8 +41,8 @@ public:
         }
         s.erase(curr, s.length());
 
-        // 若 s 仅剩 1 位字符, 则判断不为回文
-        if (s.length() == 1) return false;
+        // 若 s 仅剩 1 位字符, 则判断为回文
+        if (s.length() == 1) return true;
 
         // 从两边向中间依次比较每位字符是否相等
         for (int i = 0; i < s.length() / 2; ++i) {

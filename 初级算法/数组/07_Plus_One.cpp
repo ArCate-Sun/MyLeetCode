@@ -1,10 +1,10 @@
 //
 // Plus One
 //
-// 要求:
-// 给定一个非负整数组成的非空数组，给整数加一。
-// 可以假设整数不包含任何前导零，除了数字0本身。
-// 最高位数字存放在列表的首位。
+// Required:
+// Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
+// You may assume the integer do not contain any leading zero, except the number 0 itself.
+// The digits are stored such that the most significant digit is at the head of the list.
 //
 
 #include <iostream>

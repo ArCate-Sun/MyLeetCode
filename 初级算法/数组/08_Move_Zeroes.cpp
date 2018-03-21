@@ -1,15 +1,15 @@
 //
 // Move Zeroes
 //
-// 要求:
-// 给定一个数组 nums, 编写一个函数将所有 0 移动到它的末尾，同时保持非零元素的相对顺序。
+// Required:
+// Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 //
-// 示例:
-// 定义 nums = [0, 1, 0, 3, 12]，调用函数之后， nums 应为 [1, 3, 12, 0, 0]。
+// Example:
+// Given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
 //
-// 注意事项:
-// 1. 必须在原数组上操作，不要为一个新数组分配额外空间。
-// 2. 尽量减少操作总数。
+// Note:
+// You must do this in-place without making a copy of the array.
+// Minimize the total number of operations.
 //
 
 #include <iostream>
