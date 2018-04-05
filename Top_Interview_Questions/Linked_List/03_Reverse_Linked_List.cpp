@@ -48,23 +48,3 @@ public:
         return chg_x;
     }
 };
-
-int main() {
-
-    Solution solution;
-
-    auto *head = new ListNode(1);
-    auto node = head;
-    for (int i = 0; i < 5; ++i) {
-        node = node->next = new ListNode(i);
-    }
-
-    auto rs = solution.reverseList(head);
-
-    for (auto n = rs; n; n = n->next) {
-        cout << n->val << " ";
-    }
-    cout << endl;
-
-    return 0;
-}
