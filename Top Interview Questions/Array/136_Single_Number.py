@@ -13,12 +13,10 @@ class Solution(object):
 		:rtype: int
 		"""
 
-		nums.sort()
-		for i in range(1, len(nums), 2):
-			if nums[i - 1] != nums[i]:
-				return nums[i - 1]
-		else:
-			return nums[-1]
+		single_number = 0
+		for num in nums:
+			single_number ^= num
+		return single_number
 
 
 if __name__ == "__main__":
