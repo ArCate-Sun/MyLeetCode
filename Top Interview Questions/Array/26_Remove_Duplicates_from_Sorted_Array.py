@@ -6,7 +6,7 @@ See:
 """
 
 
-class Solution(object):
+class Solution:
 	def removeDuplicates(self, nums):
 		"""
 		:type nums: List[int]

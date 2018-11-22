@@ -6,17 +6,14 @@ See:
 """
 
 
-class Solution(object):
+class Solution:
 	def rotate(self, nums, k):
 		"""
 		:type nums: List[int]
 		:type k: int
 		:rtype: void Do not return anything, modify nums in-place instead.
 		"""
-
-		rotate_arr = nums[-k % len(nums):]
-		nums[len(rotate_arr):] = nums[:-len(rotate_arr)]
-		nums[:len(rotate_arr)] = rotate_arr
+		nums[:] = nums[-k % len(nums):] + nums[:-k % len(nums)]
 
 
 if __name__ == "__main__":

@@ -6,18 +6,18 @@ See:
 """
 
 
-class Solution(object):
+class Solution:
 	def containsDuplicate(self, nums):
 		"""
 		:type nums: List[int]
 		:rtype: bool
 		"""
 
-		nums.sort()
-		for i in range(1, len(nums)):
-			if nums[i - 1] == nums[i]:
-				return True
-		return False
+		nums_set = set(nums)
+		if len(nums) == len(nums_set):
+			return False
+		else:
+			return True
 
 
 if __name__ == "__main__":
