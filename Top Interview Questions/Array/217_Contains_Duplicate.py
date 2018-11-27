@@ -13,11 +13,7 @@ class Solution:
 		:rtype: bool
 		"""
 
-		nums_set = set(nums)
-		if len(nums) == len(nums_set):
-			return False
-		else:
-			return True
+		return len(nums) != len(set(nums))
 
 
 if __name__ == "__main__":
