@@ -5,15 +5,10 @@ See:
 	https://leetcode.com/explore/interview/card/top-interview-questions-easy/96/sorting-and-searching/774/
 """
 
-
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
 # def isBadVersion(version):
-def isBadVersion(version):
-	# 从 2356 开始以后的版本是坏的
-	return version >= 2356
-
 
 class Solution:
 	def firstBadVersion(self, n):
@@ -34,6 +29,11 @@ class Solution:
 				l = mid + 1
 			else:
 				r = mid - 1
+
+
+def isBadVersion(version):
+	# 从 2356 开始以后的版本是坏的
+	return version >= 2356
 
 
 if __name__ == "__main__":
