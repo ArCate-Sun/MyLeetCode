@@ -13,9 +13,9 @@ class Solution:
 		:rtype: bool
 		"""
 
-		blocks = [set() for i in range(9)]
-		rows = [set() for i in range(9)]
-		cols = [set() for i in range(9)]
+		blocks = [set() for _ in range(9)]
+		rows = [set() for _ in range(9)]
+		cols = [set() for _ in range(9)]
 
 		for i in range(9):
 			for j in range(9):
