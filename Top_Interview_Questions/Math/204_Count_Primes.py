@@ -4,9 +4,23 @@ Question:
 See:
 	https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/744/
 """
+import math
 
 
 class Solution:
+
+	def countPrimes(self, n):
+		"""
+		:type n: int
+		:rtype: int
+		"""
+		arr = [1] * n
+		arr[:2] = [0] * 2
+		for i in range(2, math.ceil(n ** 0.5)):
+			if arr[i] == 1:
+				arr[i * i : n : i] = [0] * math.ceil((n - i * i) / i)
+		return sum(arr)
+
 
 	def is_prime(self, n):
 		"""
@@ -21,7 +35,7 @@ class Solution:
 				return False
 		return True
 
-	def countPrimes(self, n):
+	def countPrimes2(self, n):
 		"""
 		:type n: int
 		:rtype: int
@@ -33,6 +47,10 @@ class Solution:
 				count += 1
 		return count
 
+
+
+
+
 if __name__ == "__main__":
 	s = Solution()
 
@@ -40,3 +58,9 @@ if __name__ == "__main__":
 	print("INPUT: %s" % input)
 	output = s.countPrimes(input)
 	print("OUTPUT: %s" % output)
+
+
+	# for i in range(100):
+	# 	print(i, s.countPrimes(i))
+
+	# s.print_num(99)
