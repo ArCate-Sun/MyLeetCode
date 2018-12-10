@@ -15,8 +15,7 @@ class Solution:
 		:rtype: bool
 		"""
 
-		s = s.lower()
-		s = re.sub("[^a-z0-9]", "", s)
+		s = re.sub("[^a-z0-9]", "", s.lower())
 		return s == s[::-1]
 
 	def isPalindrome2(self, s):
