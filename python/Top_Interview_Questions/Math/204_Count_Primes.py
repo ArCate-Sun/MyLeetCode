@@ -48,9 +48,6 @@ class Solution:
 		return count
 
 
-
-
-
 if __name__ == "__main__":
 	s = Solution()
 
@@ -58,9 +55,3 @@ if __name__ == "__main__":
 	print("INPUT: %s" % input)
 	output = s.countPrimes(input)
 	print("OUTPUT: %s" % output)
-
-
-	# for i in range(100):
-	# 	print(i, s.countPrimes(i))
-
-	# s.print_num(99)
