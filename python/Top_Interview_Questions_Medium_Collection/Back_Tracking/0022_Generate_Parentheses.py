@@ -6,6 +6,8 @@ See:
 """
 from typing import Set, List
 
+from common.verification import Verification
+
 
 class Solution:
 	parenthesis = {
@@ -30,7 +32,6 @@ class Solution:
 		]
 		Solution.parenthesis[n] = list(set(tmp_parenthesis))
 		return Solution.parenthesis[n]
-
 
 
 if __name__ == "__main__":
